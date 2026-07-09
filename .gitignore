@@ -10,3 +10,4 @@ log_experiments/
 examples-PID/
 /CausalPy/
 !tutorials/*_files/*.png
+.ipynb_checkpoints/
