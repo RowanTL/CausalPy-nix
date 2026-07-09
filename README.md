@@ -1,5 +1,17 @@
 # CausalPy
 
+## Nix Note
+
+- `nix develop`
+- `uv venv`
+- `source .venv/bin/activate`
+- `uv sync`
+
+I decided to use uv because it was taking far to long to build pytorch from scratch
+with the nixpkgs version.
+
+## Normal README
+
 **CausalPy** is a research library for **causal-effect identification and estimation** in
 *acyclic directed mixed graphs* (ADMGs) — directed graphs with latent confounders. Given a
 causal graph, a treatment set `X`, and an outcome set `Y`, it can
