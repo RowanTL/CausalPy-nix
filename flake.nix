@@ -25,7 +25,7 @@
         {
           default = pkgs.mkShell {
             buildInputs = with pkgs; [
-              python312
+              python311
               uv
               ninja # Required for compiling the submodules
               gcc13 # C++ Compiler
